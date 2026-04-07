@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Game Hub</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: #121417;
+      color: white;
+    }
+
+    /* Top bar */
+    .topbar {
+      background: #1c1f26;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .search {
+      padding: 8px;
+      width: 300px;
+      border-radius: 6px;
+      border: none;
+    }
+
+    /* Game section */
+    .section {
+      padding: 20px;
+    }
+
+    .section h2 {
+      margin-bottom: 10px;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 15px;
+    }
+
+    /* Game card */
+    .card {
+      background: #1f232b;
+      border-radius: 10px;
+      padding: 10px;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .title {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .player {
+      font-size: 12px;
+      color: gray;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="logo">🎮 MyGameHub</div>
+  <input class="search" placeholder="Search games...">
+</div>
+
+<!-- GAME SECTION -->
+<div class="section">
+  <h2>Popular Games</h2>
+
+  <div class="games">
+
+    <a href="game1.html">
+      <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <div class="title">Obby Adventure</div>
+        <div class="player">👥 1.2K playing</div>
+      </div>
+    </a>
+
+    <a href="game2.html">
+      <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <div class="title">Speed Run</div>
+        <div class="player">👥 800 playing</div>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+</body>
+</html>
+🔵 STEP 2: Make a Gam
